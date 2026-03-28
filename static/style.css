@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    width: 350px;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #00c9a7;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00b894;
+    transform: scale(1.05);
+}
+
+table {
+    margin: auto;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+@keyframes fadeIn {
+    from {opacity:0; transform: translateY(-20px);}
+    to {opacity:1;}
+}
